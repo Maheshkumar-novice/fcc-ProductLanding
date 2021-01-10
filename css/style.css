@@ -1,0 +1,434 @@
+/* Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+}
+
+/* Header */
+#header {
+  background-color: black;
+  color: white;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  padding: 20px;
+  border-bottom: 2px solid black;
+}
+
+#header img {
+  height: 100px;
+  width: 100px;
+}
+
+#logo-text {
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: underline;
+}
+
+#header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#header li {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  margin: 20px;
+}
+
+#header li a {
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 3px;
+}
+
+#header li a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Form */
+#form-div {
+  text-align: center;
+  padding: 40px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form {
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#form h2 {
+  font-size: 40px;
+}
+
+#submit {
+  font-family: "Courier New", Courier, monospace;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 0;
+  border: 2px solid black;
+  padding: 3px;
+  width: 120px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: black;
+  color: white;
+}
+
+input {
+  margin: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+input[type="email"] {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  outline: 1px solid black;
+  outline-offset: -2px;
+  font-size: 20px;
+  width: 600px;
+  height: 45px;
+  padding: 15px;
+  border-radius: 2px;
+}
+
+/* Features */
+#features {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 1050px;
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#features h1 {
+  margin-top: 20px;
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: underline;
+}
+
+#features p {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+#features img {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+
+#f1 {
+  height: 400x;
+  width: 400px;
+  border: 1px solid black;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+#f2 {
+  height: 400x;
+  width: 400px;
+  border: 1px solid black;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+#f3 {
+  height: 400x;
+  width: 400px;
+  border: 1px solid black;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+#read-more {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 0px;
+  border: 2px solid black;
+  padding: 3px;
+  width: inherit;
+  height: 30px;
+  cursor: pointer;
+}
+
+#read-more:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Downloads */
+#downloads {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 650px;
+  padding: 40px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+#downloads img {
+  margin: 100px;
+  height: 200px;
+  width: 200px;
+}
+
+#downloads button {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 0;
+  border: 2px solid black;
+  padding: 3px;
+  width: 120px;
+  cursor: pointer;
+}
+
+#downloads button:hover {
+  background-color: black;
+  color: white;
+}
+
+#downloads h1 {
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: underline;
+}
+
+/* Deomonstration */
+#demonstration {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  height: 750px;
+  border-bottom: 1px solid black;
+}
+
+#demonstration iframe {
+  height: 500px;
+  width: 700px;
+  margin: 10px;
+}
+
+#demonstration h1 {
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: underline;
+  margin: 10px;
+}
+
+/* Footer */
+#footer {
+  color: white;
+  background-color: black;
+  font-size: 15px;
+  height: 200px;
+}
+
+#footer ul {
+  list-style: none;
+  padding: 5px;
+  text-align: justify;
+}
+
+#footer li {
+  margin: 20px;
+}
+
+#footer p {
+  text-align: center;
+}
+
+#footer li a {
+  color: white;
+  text-decoration: none;
+  padding: 3px;
+}
+
+#footer li a:hover {
+  background-color: white;
+  color: black;
+}
+
+#icon li {
+  text-align: center;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#info ul {
+  display: flex;
+}
+
+#info p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Move to Top Button */
+#go {
+  cursor: pointer;
+  opacity: 0.1;
+  background: transparent;
+  outline: none;
+  border: none;
+  height: 70px;
+  width: 70px;
+  position: fixed;
+  bottom: 1px;
+  right: 0;
+}
+
+#go:hover {
+  opacity: 0.7;
+}
+
+/* Media Queries */
+@media (max-width: 1000px) {
+  #f1,
+  #f2,
+  #f3 {
+    width: 300px;
+    align-self: center;
+  }
+}
+
+@media (max-width: 800px) {
+  #header {
+    height: 150px;
+    flex-direction: column;
+  }
+
+  #header nav {
+    margin-top: 30px;
+  }
+
+  #header img {
+    height: 40px;
+    width: 50px;
+  }
+
+  #logo-text {
+    text-decoration: none;
+    position: inherit;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  input[type="email"] {
+    width: 300px;
+  }
+
+  #form h2 {
+    font-size: 2rem;
+    letter-spacing: 0.1px;
+  }
+
+  #features {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #features h1 {
+    margin-bottom: 20px;
+  }
+
+  #features img,
+  #downloads img {
+    height: 150px;
+    width: 150px;
+  }
+
+  #downloads img {
+    margin: 50px;
+  }
+
+  #demonstration iframe {
+    height: 200px;
+    width: 350px;
+  }
+}
+
+@media (min-width: 700px) {
+  #form input[type="email"] {
+    font-size: 30px;
+    width: 650px;
+  }
+
+  #read-more,
+  #downloads button,
+  #submit {
+    width: 200px;
+    font-size: 30px;
+    height: 40px;
+  }
+
+  #icon ul {
+    text-align: center;
+  }
+
+  #info a {
+    padding: 3px;
+    font-size: 20px;
+    height: 30px;
+  }
+
+  #info p {
+    font-size: 30px;
+  }
+}
